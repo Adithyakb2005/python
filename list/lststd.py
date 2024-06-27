@@ -1,3 +1,6 @@
-names=[]
+names=['']
 a=int(input("enter how many studs:"))
-b=['manu','anu','']
+for i in range(a):
+    b=input("name:")
+    names.append(b)
+print(names)
