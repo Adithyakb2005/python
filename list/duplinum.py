@@ -8,4 +8,7 @@
 #revese
 l=["manu","akhil","sanu"]
 for i in l:
-    print(i)
+    rev=""
+    for j in i:
+        rev=j+rev
+    print(rev)
