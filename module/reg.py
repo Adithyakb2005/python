@@ -4,6 +4,3 @@ def  register(data):
     id=input("enter ur id:")
     place=input("enter ur place:")
     data={n,a,id,place}
-def display(data):
-    
-    print(data)
