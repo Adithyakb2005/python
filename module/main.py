@@ -1,9 +1,9 @@
 from reg import *
-from dis import *
+from display import *
 from update import *
 from dele import *
 data=[{"id": "1", "name": "Anu", "age": "30", "place": "landon"},
-    {"id": "2", "name": "", "age": "25", "place": "Chicago"},]
+    {"id": "2", "name": "manu", "age": "25", "place": "california"},]
 while True:
     print("1.Add \n2.Display \n3.Update \n4.Delate \n5.Exit")
     ch=int(input("Enter your choice : "))

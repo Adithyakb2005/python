@@ -3,4 +3,5 @@ def  register(data):
     a=int(input("enter ur age"))
     id=input("enter ur id:")
     place=input("enter ur place:")
-    data={n,a,id,place}
+    data.append({'name':n,'id':id,'age':a,'place':place})
+   

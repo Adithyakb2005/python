@@ -6,9 +6,9 @@ def up(data):
             new_name = input("Enter new name (leave blank to keep current): ")
             i["name"] = new_name or i["name"]
             
-            print("Current Age : " + i['age'])
-            new_age = input("Enter new age (leave blank to keep current): ")
-            i["age"] = new_age or i["age"]
+            print("Current Age : " + str(i['age']))
+            new_age =int(input("Enter new age (leave blank to keep current): "))
+            i["age"] = new_age or i['age']
             
             print("Current Place : " + i['place'])
             new_place = input("Enter new place (leave blank to keep current): ")
