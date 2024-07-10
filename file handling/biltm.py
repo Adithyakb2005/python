@@ -12,5 +12,10 @@
 # f=open('python/file handling/unkhown.txt','w')
 # f.write('welcome'+' to all')
 
+a=int(input("enter how many students:"))
 f=open('python/file handling/demo.txt','w')
-f.write
+name=[]
+for i in range(a):
+    b=input('name:')
+    name.append(a)
+    f.write(b)
