@@ -43,8 +43,8 @@
 
 #REGULAR EXPRESSION
 
-a='welcome'
-import re
+# a='welcome'
+# import re
 # print(re.sub('w','W',a))
 # print(re.sub('welcome','python',a))
 
@@ -65,7 +65,7 @@ import re
 # print(re.search('[A-Z]',a))
 # a='welcome123'
 # print(re.search('[0-9]',a))
-a='AbCd123'
+# a='AbCd123'
 # print(re.search('a.',a))
 # print(re.search('b.',a))
 # print(re.search('c.',a))
@@ -88,10 +88,60 @@ a='AbCd123'
 # print(re.search('[a-z].*',a))
 # print(re.search('[a-z].+',a))
 # print(re.search('[a-z].?',a))
-print(re.search('[0-9].',a))
-print(re.search('[0-9].',a))
-print(re.search('[0-9].',a))
-print(re.search('[0-9]..',a))
-print(re.search('[0-9].*',a))
-print(re.search('[0-9].+',a))
-print(re.search('[0-9].?',a))
+# print(re.search('[0-9].',a))
+# print(re.search('[0-9].',a))
+# print(re.search('[0-9].',a))
+# print(re.search('[0-9]..',a))
+# print(re.search('[0-9].*',a))
+# print(re.search('[0-9].+',a))
+# print(re.search('[0-9].?',a))
+
+
+# import re
+# a="AabCd123"
+# print(re.search('[a-z][0-9]',a))
+# print(re.search('[A-Z][a-z][0-9]',a))
+# print(re.search('[A-Z][a-z][0-9][0-9]',a))
+# print(re.search('[A-Z].*[a-z].*[0-9]',a))
+# print(re.search('[a-z0-9]$',a))
+# print(re.search('[0-9]$',a))
+# B='Welcome'
+# print(re.search('e$',B))
+# print(re.search('Welcome$',B))
+
+
+#PHONE NUMBER VALIDATION
+# import re
+# a=input('enter your number: ')
+# if len(a)==10 and a.isdigit() and re.search('[6-9].{9}',a):
+#     print("valid")
+# else:
+#     print("invalid")
+
+
+
+# import re
+
+# email = input('Enter your email address: ')
+
+# # Regular expression pattern for validating email addresses
+# pattern = r'^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$'
+
+# # Check if the email matches the pattern using re.match
+# if re.match(pattern, email):
+#     print("Valid email address")
+# else:
+#     print("Invalid email address")
+
+
+
+
+#EMAIL VAILDATION
+import re
+
+email = input('Enter your email address: ')
+
+if re.search('[a-z].*@gmail.com',email):
+    print("Valid email address")
+else:
+    print("Invalid email address")
